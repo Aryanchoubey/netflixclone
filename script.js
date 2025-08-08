@@ -201,7 +201,11 @@ console.log("helo");
 // // Initial check
 // updateButtons();
 
+const signiBtn = document.querySelector(".signin").addEventListener('click', navigateToSignin)
 
+function navigateToSignin(){
+  window.location.href = "signin.html"
+}
 
 
 
