@@ -171,6 +171,8 @@ btn.addEventListener("click", function() {
   btn1.classList.remove("active");
     this.classList.add("active");
 });
+console.log("helo");
+
 
 
 // const items = document.querySelector(".class7");
