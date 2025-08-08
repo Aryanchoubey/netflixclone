@@ -454,10 +454,27 @@ footer{
   .box2 {
     text-align: center;
   }
+  .eng {
+    min-height: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: normal;
+
+  }
+  #search1{
+    /* max-width: 1px;m */
+    /* min-width: 1000px; */
+    max-width: 400px;
+    max-height: 600px;
+  }
+  .button1{
+    max-width: 300px;
+  }
   .document > div {
     flex: 1 1 100%;
   }
   .class1{
+    min-height: 100px;
     display: flex;
     flex-wrap: wrap;
   }
